@@ -1,0 +1,23 @@
+/* styles.css ou outro arquivo de estilo */
+.scroll-transparent::-webkit-scrollbar {
+  width: 0.1rem;
+}
+
+.scroll-transparent::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-transparent::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.scroll-transparent::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.scroll-transparent {
+  overflow-y: auto;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+}

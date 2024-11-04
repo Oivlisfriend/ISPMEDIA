@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #131313;
+}
+.black-700 {
+  background-color: #131313;
+}
+.black-600 {
+  background-color: #1c1c1c;
+}
+.red-800 {
+  background-color: #ab0202;
+}
+
+.red-50 {
+  background-color: #ab0202;
+}
+.red-150{
+  background-color: #e73232;
+}
